@@ -17,10 +17,9 @@ llama-index-llms-azure-openai
 llama_index-embeddings-azure-openai
 azure-storage-blob
 azure-search-documents
-fastapi
-fastapi[all]
-uvicorn
-gunicorn
+fastapi==0.104.1
+uvicorn==0.24.0
+gunicorn==21.2.0
 fastapi-cli
 importlib-metadata
 
