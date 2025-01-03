@@ -18,7 +18,9 @@ llama_index-embeddings-azure-openai
 azure-storage-blob
 azure-search-documents
 fastapi
-fastapi[standard]
+fastapi[all]
 uvicorn
+gunicorn
+fastapi-cli
 
 # uvicorn run:app --host 0.0.0.0 --port 8000 --workers 4
